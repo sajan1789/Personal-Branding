@@ -5,16 +5,24 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
+import EventList from './pages/EventCard'
+import EventHero from './pages/EventHero'
+import EventBannerVideo from './pages/EventBannerVideo'
+import EventBannersimple from './pages/EventBannersimple'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=" w-[100%] text-white border border-red-700">
-    <Navbar />
+    <div className=" w-[100%] text-white flex flex-col gap-4 ">
+    {/* <Navbar />
     <HeroSection />
-    <AboutMe />
+    <AboutMe /> */}
+      {/* <EventList/> */}
+      <EventHero/>
+      <EventBannerVideo/>
+      <EventBannersimple/>
   </div>
   )
 }
