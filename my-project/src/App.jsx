@@ -9,6 +9,7 @@ import EventList from './pages/EventCard'
 import EventHero from './pages/EventHero'
 import EventBannerVideo from './pages/EventBannerVideo'
 import EventBannersimple from './pages/EventBannersimple'
+import ProductCard from './pages/ProductCard'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <EventHero/>
       <EventBannerVideo/>
       <EventBannersimple/>
+      <ProductCard/>
   </div>
   )
 }
